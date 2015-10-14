@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" value="meta,html,implatacion,formularios">
+    <meta name="description" value="pagina web en html para enviar informacion a taves de html">
+    <meta name="author" value="Yo mismo">
+    <meta name="generator" value="blok de notas">
+    <meta http-equiv="refresh" content="3; URL=meta.html">
+    <title>My first try doing forms</title>
+  </head>
+  <body>
+    <form name="" action="formulario.html" method="" enctype="multipart/form-data">
+    <fieldset>
+    <legend>Nuevo post</legend>
+    <div><label for ="titulo">Titulo</label></div>
+    <div><input type = "text" name ="titulo" value="" id="titulo"></div>
+    <div><label for ="texto">Texto</label></div>
+    <div><textarea id="texto" name ="texto" cols="40" rows="10">
+    </textarea></div>
+
+    <div><label for ="estado">Estado Civil</label></div>
+    <div><select name ="estado" id="estado">
+          <option value="45">Felizmente Casado</option>
+          <option value="23" selected="selected">Soltero</option>
+          <option value="42">Tristemente Casado</option>
+    </select></div>
+    <div><label for ="posesiones">Posesiones</label></div>
+    <div><select name ="posesiones" id="posesiones" multiple="multiple" size="10">
+      <optgroup label="chorradas varias">
+          <option value="45">golum</option>
+          <option value="23" selected="selected">Ella la araña</option>
+      </optgroup>
+          <option value="42">Dildo</option>
+    </select></div>
+    <div><label for ="armas">Armas que llevarias a mordor</label></div>
+    <div>
+      <input type = "checkbox" name ="armas" id="mandoble2h">
+      <label for ="mandoble2h">Mandoble a dos manos</label>
+      <input type = "checkbox" name ="armas" id="manualphp">
+      <label for ="manualphp">Manual PHP</label>
+    </div>
+    <div><label for ="armasNO">Armas que NO llevarias a mordor</label></div>
+    <div>
+      <input type = "radio" name ="armasNO" id="varita">
+      <label for ="varita">Varita</label>
+      <input type = "radio" name ="armasNO" id="boromir">
+      <label for ="boromir">Boromir</label>
+    </div>
+    <div><input type = "file" name ="fichero" id="fichero"></div>
+
+
+        <div><input type = "submit" name ="submit" value="Buscar"/></div>
+    </div>
+    </fieldset>
+    </form>
+  </body>
+</html>

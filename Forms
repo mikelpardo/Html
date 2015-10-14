@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My first try doing forms</title>
+  </head>
+  <body>
+    <form name="" action="" method="">
+      <div><label for ="tete">Busca Algro Prem</label></div>
+      <div><input type = "text" name ="buscar" value="" id="tete"></div>
+      <div><label for ="tete">De tu password naze mi fama nano</label></div>
+      <div><input type = "password" name ="password" id="password"></div>
+    </div><input type = "submit" name ="submit" value="Buscar"></div>
+    </form>
+  </body>
+</html>

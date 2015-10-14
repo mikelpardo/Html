@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My first try doing html</title>
+  </head>
+  <body>
+    <h1>This is a header title</h1>
+    <h2>This is a smaller header than h1</h2>
+    <h3>This is a smaller header than h2</h3>
+    <h4>This is a smaller header than h3</h4>
+    <h5>This is a smaller header than h4</h5>
+    <p>bla bla bla</p>
+    <p>bla bla bla</p>
+    <br>
+    <p>bla bla bla bla</p>
+    <p>This is <b>imporatnt</b>
+    </p>
+    <p>We are only <i>friends</i> in other words, you are fucking friendzone buddy</p>
+    <hr>
+    <pre>
+      Start with one thing
+      I dont know why
+      if it doesnt even matter how hard I try
+    </pre>
+    <hr>
+    <p>For putting <em>emphasis</em></p>
+    <p>KOTOL GIFF ME <strong>MANA</strong>
+      <p><del>GO TO A TIPICAL BAJERA IN SPAIN</del><P>
+      <p><marquee>Follow the leader leader follow the leader</marquee></p>
+      <p><q>All I Need Is Love<q></p>
+
+    <p><cite>The same as the q marck </cite></p>
+    <p><abbr title="How To Meet Ladies">HTML</abber></p>
+      <code><pre>
+        function hello(){
+          alert("hello");
+        }
+      </pre></code>
+      <h1>Special Chars</h1>
+      &ntilde; &aacute; &Aacute; &copy; &trade;
+  </body>
+</html>
